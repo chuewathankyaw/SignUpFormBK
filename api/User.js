@@ -4,6 +4,9 @@ const router = express.Router();
 // mongodb user model
 
 const User = require("../models/User");
+// mongodb user verification model
+
+const UserVerification = require("./../models/UserVerification");
 
 // Password handler
 const bcrypt = require("bcrypt");
